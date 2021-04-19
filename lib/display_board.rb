@@ -8,10 +8,10 @@ end
 def display_board board
   _horizontal_separator = "-----------"
   
-  puts "#{display_value }|#{display_value}|#{display_value}"
+  puts "#{display_value board[0]}|#{display_value board[1]}|#{display_value board[2]}"
   puts _horizontal_separator
-  puts "#{display_value }|#{display_value}|#{display_value}"
+  puts "#{display_value board[3]}|#{display_value board[4]}|#{display_value board[5]}"
   puts _horizontal_separator
-  puts "#{display_value }|#{display_value}|#{display_value}"
+  puts "#{display_value board[6]}|#{display_value board[7]}|#{display_value board[8]}"
 
 end
